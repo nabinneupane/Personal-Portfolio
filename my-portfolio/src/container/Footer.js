@@ -4,15 +4,16 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 //fixed-bottom
 function Footer() {
+  const thisYear = new Date().getFullYear();
   return (
-    <footer className=" p-0">
+    <footer className=" p-0 ">
       <Container fluid={true} className=" text-info bg-light">
         <Row className="border-top justify-content-between p-3  ">
           <Col className="p-2" md={3} sm={12}>
             Nabin Neupane
           </Col>
-          <Col className="p-2 justify-content-end " md={3}>
-            This site was made by Neupane Neupane
+          <Col className="p-2 justify-content-end " md={2.5}>
+            Copyright &copy; {thisYear}. All rights reserved.
           </Col>
         </Row>
       </Container>
