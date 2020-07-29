@@ -12,7 +12,7 @@ const ProjectPage = () => (
     <Tabs
       defaultActiveKey="reactProject"
       id="uncontrolled-tab-example"
-      className="justify-content-center p-0 mt-1"
+      className="justify-content-center p-0 mt-1 "
     >
       <Tab eventKey="reactProject" title="React">
         <ReactProject />

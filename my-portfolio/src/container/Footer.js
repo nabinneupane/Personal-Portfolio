@@ -6,10 +6,10 @@ import Col from "react-bootstrap/Col";
 function Footer() {
   const thisYear = new Date().getFullYear();
   return (
-    <footer className=" p-0 ">
+    <footer className=" p-0 sticky-bottom">
       <Container fluid={true} className=" text-info bg-light">
         <Row className="border-top justify-content-between p-3  ">
-          <Col className="p-2" md={3} sm={12}>
+          <Col className="p-2 " md={3} sm={7}>
             Nabin Neupane
           </Col>
           <Col className="p-2 justify-content-end " md={2.5}>

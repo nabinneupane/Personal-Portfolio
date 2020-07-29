@@ -15,10 +15,10 @@ const CardDisplay = (props) => {
   //console.log(github);
   //console.log(liveDemo);
   return (
-    <Col md={4} className="py-3 mx-auto">
+    <Col md={6} sm={12} lg={4} className=" py-3 mx-auto">
       <Card
         shadow={5}
-        className="card-img-top w-75 h-auto bg-info text-center shadow"
+        className="card-img-top w-75 h-auto bg-info  shadow  justify-content-center "
       >
         <Card.Img
           variant="top"
@@ -27,9 +27,11 @@ const CardDisplay = (props) => {
           alt="Card image cap"
         />
         <Card.Body>
-          <Card.Title>{title}</Card.Title>
+          <Card.Title className="text-center p-0">{title}</Card.Title>
 
-          <Card.Text>{text}</Card.Text>
+          <Card.Text>
+            <p> {text} </p>
+          </Card.Text>
         </Card.Body>
         <Card.Footer className="d-flex justify-content-between bg-dark">
           <Card.Link

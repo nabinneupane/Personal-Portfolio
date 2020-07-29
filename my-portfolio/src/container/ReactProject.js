@@ -11,7 +11,7 @@ const ReactProject = () => {
     {
       image: { it },
       title: "FIXIT",
-      text: "This is body of FIXIT app",
+      text: "This is the body of expense tracker ",
       github: "https://github.com/nabinneupane/CSC-414-Final-Project-",
       liveDemo: "https://github.com/nabinneupane/CSC-414-Final-Project-",
     },
@@ -26,7 +26,14 @@ const ReactProject = () => {
     {
       image: { product },
       title: "Office Management",
-      text: "This is body of FIXIT app",
+      text: "This is the body of expense tracker ",
+      github: "https://github.com/nabinneupane/Homework-5-",
+      liveDemo: "https://nabinneupane.github.io/Homework-5-/",
+    },
+    {
+      image: { expense },
+      title: "Office Management",
+      text: "This is the body of expense tracker",
       github: "https://github.com/nabinneupane/Homework-5-",
       liveDemo: "https://nabinneupane.github.io/Homework-5-/",
     },
@@ -40,7 +47,7 @@ const ReactProject = () => {
     <Container
       fluid={true}
       style={{ backgroundColor: "#dbe5e6" }}
-      className="py-4"
+      className="d-flex justify-content-center py-4 "
     >
       <Row>{cardInfo.map(renderCard)}</Row>
     </Container>

@@ -8,7 +8,6 @@ import {
   faUserGraduate,
   faAward,
   faCogs,
-  faArrowUp,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -25,10 +24,10 @@ const AboutPage = () => {
       <Container fluid={true}>
         <Row>
           <Col sm={12}>
-            <center className="  display-1 font-weight-bolder border-bottom border-dark mb-5">
+            <center className="  display-1 font-weight-bolder border-bottom border-dark mb-5 ">
               About Me
             </center>
-            <content>
+            <div>
               <Row>
                 <Col className="col-5"> Image halney ho </Col>
                 <Col>
@@ -44,7 +43,7 @@ const AboutPage = () => {
                   <br /> <br />
                 </Col>
               </Row>
-            </content>
+            </div>
             <Row className=" border-top d-flex flex-row  text-center">
               <Col className="mt-5">
                 <a
@@ -106,7 +105,6 @@ const AboutPage = () => {
             </section>
           </Col>
         </Row>
-       
       </Container>
     </Jumbotron>
   );
